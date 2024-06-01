@@ -510,13 +510,18 @@ main {
 }
 
 .feedback-text {
-    max-width: 55%;
     margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .feedback-text p {
     margin: 0;
-    white-space: pre-wrap;
+    /* white-space: pre-wrap; */
+    width: 50%;
     overflow: hidden;
     text-overflow: ellipsis;
     line-height: 2rem;
@@ -584,7 +589,6 @@ footer {
 @media (max-width: 1280px) {
     .card {
         width: calc(25% - 1rem);
-        /* Keeps 4 cards per row until 1280px */
     }
 }
 
