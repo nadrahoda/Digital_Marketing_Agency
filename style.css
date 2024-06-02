@@ -154,7 +154,7 @@ main {
 }
 
 .dot {
-  background-image: url('/assets/2.svg');
+  background-image: url('assets/dot.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -166,7 +166,7 @@ main {
 }
 
 .dot.active {
-  background-image: url('/assets/1.svg');
+  background-image: url('assets/activedot.svg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -535,7 +535,7 @@ main {
 }
 
 .feedback-text p:first-child::before {
-  content: url('/assets/Quotemarks-left.svg');
+  content: url('assets/Quotemarks-left.svg');
   position: absolute;
   left: 0;
   top: 0;
